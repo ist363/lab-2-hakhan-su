@@ -1,0 +1,157 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    display:flex;
+}
+
+.item1{
+    height: 200px;
+    margin: 10px;
+    width: 50%;
+    background-color: lightblue;
+}
+
+.container2 {
+    display:flex;
+}
+
+.item2{
+    height: 200px;
+    margin: 10px;
+    background-color: coral;
+    width:25%;
+}
+
+.item2-2{
+    height: 200px;
+    margin: 10px;
+    background-color: coral;
+    width:50%;
+}
+
+.container3 {
+    display:flex;
+}
+
+.item3{
+    height: 200px;
+    margin: 10px;
+    background-color: blueviolet;
+    width:40%;
+}
+
+.item3-2{
+    height: 200px;
+    margin: 10px;
+    background-color: blueviolet;
+    width:20%;
+}
+
+.container4 {
+    display:flex; 
+    justify-content: flex-end;
+    justify-content: space-between;  
+}
+
+.item4{
+    height: 200px;
+    margin: 10px;
+    background-color: rgba(132, 187, 116, 0.86);
+    width:33.3%;
+}
+
+.container5 {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.item5{
+    height: 200px;
+    margin: 10px;
+    background-color: #DDAC26;
+    width:25%;
+}
+
+.item5-2{
+    height: 200px;
+    margin: 10px;
+    background-color: #DDAC26;
+    width:25%;
+    margin-left: auto;
+}
+
+.containerbig{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #D8433B;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.content1{
+    margin: 10px;
+    width: 75%;
+    background-color: lightgray;
+    border: 1px solid #A3A0A0;
+}
+
+.content2{
+    margin: 10px;
+    width: 25%;
+    background-color: lightgray;
+    border: 1px solid #A3A0A0;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #696969;
+    display: flex;
+}
+
+.container3-1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.container3-2{
+    display: flex;
+    height: 200px;
+    width: 900px;
+}
+
+.container3-3{
+    display: flex;
+    height: 200px;
+    width: 900px;
+}
+
+.item3-1{
+    margin: 10px; 
+    background-color: purple;
+    width: 300px;
+}
